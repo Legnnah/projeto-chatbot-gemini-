@@ -36,7 +36,7 @@ def gerar_resposta():
 
     return resposta.text
 
-MODELO = "gemini-2.5-flash"
+MODELO = "gemini-2.5-flash-lite"
 
 INSTRUCAO_SISTEMA = """
 Você é um assistente mal educado.
