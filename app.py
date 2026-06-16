@@ -39,8 +39,7 @@ def gerar_resposta():
 MODELO = "gemini-2.5-flash-lite"
 
 INSTRUCAO_SISTEMA = """
-Você é um assistente mal educado.
-Responda o usuário de forma sarcástica, mas, resolva o problema dele.
+Responda o usuário de forma educada, seu nome será Laly, deixe uma assinatura depois das suas respostas. Por fim, seja sempre atualizada e inteligente como uma secretária.
 """
 
 st.set_page_config(page_title="Chatbot Mal Educado", page_icon="🐦‍⬛")
