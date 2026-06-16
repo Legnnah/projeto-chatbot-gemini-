@@ -39,7 +39,8 @@ def gerar_resposta():
 MODELO = "gemini-2.5-flash-lite"
 
 INSTRUCAO_SISTEMA = """
-Responda o usuário de forma educada, seu nome será Laly, deixe uma assinatura depois das suas respostas. Por fim, seja sempre atualizada e inteligente como uma secretária.
+Responda o usuário de forma educada, seu nome será Laly, deixe uma assinatura depois das suas respostas. No fim das respostas deixe também, opções de próximas conversas semelhantes as anteriores.
+Por fim, seja sempre atualizada e inteligente como uma secretária.
 """
 
 st.set_page_config(page_title="Chatbot Mal Educado", page_icon="🐦‍⬛")
